@@ -13,11 +13,11 @@ return (
 Upload documents and ask questions instantly.
 </p>
 
-<div className="w-full mb-6">
+<div className="w-full mb-4">
 <FileUploader onUpload={() => {}} />
 </div>
 
-<div className="w-full bg-gray-900 rounded-2xl border border-gray-800">
+<div className="w-full bg-gray-900 rounded-xl border border-gray-800">
 <ChatWindow />
 </div>
 </main>
