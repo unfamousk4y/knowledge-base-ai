@@ -18,7 +18,7 @@ Upload any PDF and ask questions like "What is this document about?" to see it i
 - Deployed on Render (backend) and Vercel (frontend)
 
 ## Architecture
-User uploads PDF → FastAPI parses & chunks text → Gemini embeds chunks → FAISS indexes vectors → User asks question → Query embedded → FAISS retrieves top-5 chunks → Gemini generates answer with citations → Response sent to frontend
+User uploads PDF → FastAPI parses & chunks text → Gemini embeds chunks → FAISS indexes vectors → User asks question → Query embedded → FAISS retrieves top-5 chunks → Gemini generates answer with citations → Response sent to frontend.
 
 ## Tech Stack
 | Layer | Technology |
