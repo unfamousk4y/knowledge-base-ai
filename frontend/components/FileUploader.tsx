@@ -27,7 +27,7 @@ onUpload();
 };
 
 return (
-<div className="border-2 border-dashed border-purple-500 rounded-xl p-6 text-center">
+<div className="w-full border-2 border-dashed border-purple-500 rounded-xl p-6 text-center">
 <p className="text-gray-400 mb-3">Upload a PDF or TXT file</p>
 <input
 type="file"
