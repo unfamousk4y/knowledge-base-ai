@@ -5,7 +5,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-engine = create_engine(os.getenv("DATABASE_URL"))
+engine = create_engine(
+    os.getenv("DATABASE_URL"),
+    pool_pre_ping=True,
+    pool_recycle=300
+)
+
 SessionLocal = sessionmaker(bind=engine)
 Base = declarative_base()
 
