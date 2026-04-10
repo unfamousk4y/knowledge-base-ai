@@ -5,14 +5,15 @@ import ChatWindow from "@/components/ChatWindow";
 export default function Home() {
 return (
 <div className="min-h-screen w-full bg-gray-950">
-<main className="text-white p-6 max-w-3xl mx-auto">
+<main className="text-white max-w-3xl mx-auto">
+    <div className="px-6 pt-6 pb-4">
 <h1 className="text-3xl font-bold text-purple-400 mb-2">
 🧠 Knowledge Base AI
 </h1>
 <p className="text-gray-500 mb-6">
 Upload documents and ask questions instantly.
 </p>
-
+</div>
 <div className="w-full mb-4">
 <FileUploader onUpload={() => {}} />
 </div>
